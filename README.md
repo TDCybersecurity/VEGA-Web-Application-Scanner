@@ -1,6 +1,6 @@
 ![Vega Sat 1](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/8a51be88-df29-41a8-925f-2f6398f0b165)
 
-<h1>**What is VEGA?**</h1>
+<h1>What is VEGA?</h1>
 
 **VEGA** is a **web vulnerability scanning tool** used to keep websites and web applications secure by finding vulnerabilities. It works by scanning the site, detecting issues like **SQL injection** and **cross-site scripting**, and reporting these vulnerabilities. **VEGA** automates the process of finding security weaknesses, saving time and effort. As an open-source tool, it’s free to use and can be customized to meet specific needs. Overall, **VEGA** helps developers fix security issues before hackers can exploit them.
 
@@ -129,22 +129,27 @@ D) When you enter <script>alert("xss")</script> into search art in returns a pop
 
 **DISCUSSION**
 
-(XSS) Cross-site scripting (XSS) is a class of vulnerabilities affecting web applications that can result in security controls implemented I browsers being circumvented. When a browser visits a page on a website, script code originating in the website domain can access and manipulate the (DOM) document object model, a representation of the page and its properties in the browser. Script code from another website cannot.
+(XSS) Cross-site scripting (XSS) is a type of security vulnerability commonly found in web applications.
+Imagine visiting a website, and the website allows users to submit comments on a page.  Normally, you would expect these comments to just display text.  However, if the website is not careful about how it handles the comments, someone might submit a comment that includes malicious code instead of just text.
 
-**IMPACT**
+If someone sumbits a comment that includes a piece of JavaScript code, like: <script>alert(You have been hacked!);</script>, and the webiste does not check and sanitize the comment before displaying it, the code would run in the browser when you view the comment.
 
-- The precise impact depends greatly on the application
-- XSS is generally a threat to web applications which have authenticated users or are otherwise security sensitive.
+**IMPACT OF MALICIOUS CODE**
+
+- Fake pop-up messages.
+- Authentication and Personal login credentails can be stolen.
 - Malicious code may be able to manipulate the content of the site, changing its appearance and/or function for another user.
-- This includes modifying the behavior of the web application (such as redirecting forms, etc.)
-- The code may also be able to perform actions within the application without user knowledge.
+- Getting redirected to a different website, potentially a dangerous website.
+- Perform actions on your behalf without your permission.
 - Script code can also obtain and retransmit cookie values if they haven’t been set HTTP only.
 
-**REMEDIATION**
+**REMEDIATION STEPS CAN INCLUDE**
 
-- The developer must identify how the untrustworthy data is being output to the client without adequate filtering.
-- There are various language/platform specific techniques for filtering untrustworthy data.
-- General rules for preventing XSS can be found in the recommended OWASP XSS Prevention Cheat Sheet (see references).
+- Sanitizing User Input: Ensure all user inuts are properly cleaned by escaping special characters.
+- Use Content Security Policy (CSP): Implement CSP headers to restrict the sources from which scripts can be executed.
+- Valide Input: Validate all input data against a whitelist of allowed values to prevent malicious code.
+- Escape Data on Output: Always escape data before rendering it in the browser, especially in HTML, JavaScript, and URLs.
+- Use HTTP only and Secure Cookies: Set Cookies to HTTP only and Secure to prevent access via JavaScript and ensure secure transmission.
 
 **REFERENCES**
 
@@ -155,8 +160,4 @@ Some additional links with relevant information published by third parties:
 - XSS Prevention **_Cheat Sheet_**
 - Cross-Site Scripting **_WASC_**
 
-A)Enter a random search term
 
-B)Enter a script: **&lt;script&gt;alert(“xss”) &lt;/script&gt;**
-
-C)After clicking on the **go** box, a popup appears:**testphp.vulnweb.com _says xss_**
