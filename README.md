@@ -29,7 +29,7 @@ What is a (SOW) Statement of Work?
 _Conducting a web vulnerability scan without a (SOW) Statement of Work can lead to several potential issues and risks, both legal and operational._
 
 B) From the desktop open **VEGA**
-![VEGA Sat 5](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/cbf0fc7d-1f0c-4f0f-bcd8-5dc739a095b5)
+![VEGA Sat 4](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/81cfdee1-6c45-4547-8fa0-f3a4f7e1b75e)![VEGA Sat 5](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/cbf0fc7d-1f0c-4f0f-bcd8-5dc739a095b5)
 
 **Task 2: Overview of VEGA and a vulnerable “test” website.**
 
