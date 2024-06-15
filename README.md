@@ -1,11 +1,6 @@
 ![Vega Sat 1](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/8a51be88-df29-41a8-925f-2f6398f0b165)
 
-
-
-
-
-
-**What is VEGA?**
+<h1>**What is VEGA?**</h1>
 
 **VEGA** is a **web vulnerability scanning tool** used to keep websites and web applications secure by finding vulnerabilities. It works by scanning the site, detecting issues like **SQL injection** and **cross-site scripting**, and reporting these vulnerabilities. **VEGA** automates the process of finding security weaknesses, saving time and effort. As an open-source tool, it’s free to use and can be customized to meet specific needs. Overall, **VEGA** helps developers fix security issues before hackers can exploit them.
 
@@ -14,13 +9,10 @@
 A) Open Google on your terminal, and then find, open, and read the **(SOW) Statement of Work**.![Vega Sat 2](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/259a91bd-882c-44a5-b530-d1143a76c61d) 
 ![VEGA Sat 3](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/f97b548c-3b7a-4cdd-ba20-e33d579ce5bb)
 
-
 What is a (SOW) Statement of Work?
-
 **_A (SOW) Statement of Work_** _outlines the project’s scope, objectives, deliverables, and timelines for implementing a web vulnerability scan. This ensures everyone involved understands the project requirements, leading to better planning, execution, and accountability._
 
 **Review the sections of the (SOW) Statement of Work**:
-
 
 | 1 Introduction | 2 Background | 3 Scope | 4 Tasks, Deliverables, & Schedule |
 | --- | --- | --- | --- |
@@ -33,9 +25,11 @@ B) From the desktop open **VEGA**
 
 **Task 2: Overview of VEGA and a vulnerable “test” website.**
 
+![VEGA Sat 6](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/5efa52b2-226f-423f-8fff-d8b481798e90)
 A) Click on New Scan > Enter a base **URL (Universal Recourse Locator)** for the scan:
 
 B) Go the (SOW) Statement of Work to get the URL for the web vulnerability scan, i.e., **testphp.vulnweb.com**
+![VEGA Sat 7](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/c6edd072-e46d-4ec6-8cd0-010316712e91)
 
 C) Take a moment to **review the different sections** of the **web page**, the scanner will be testing the **entire page**.
 
@@ -48,10 +42,13 @@ C) Take a moment to **review the different sections** of the **web page**, the s
 **Task 3: Configure VEGA’s automatic scan with the “test” website.**
 
 A)Copy and paste the URL [**http://testphp.vulnweb.com/**](http://testphp.vulnweb.com/) into the Scan Target and click **Next>**.
+![VEGA Sat 8](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/aaa4c666-c9be-454c-adba-aaa6145edde4)
 
 B) **Injection Modules** or **Response Processing Modules** appear.
+![VEGA Sat 9](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/20ddf9fe-3e3d-4ca1-9a49-61fc78472dc9)
 
 C) Review the **Injection Modules** that can test the listed vulnerabilities.
+![VEGA Sat 10](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/0f28a49f-663c-4d4b-a519-fb3659dd88ba)
 
 🗹Checkmark the vulnerabilities that you want to test for.
 
@@ -73,6 +70,7 @@ D) The top **10 VEGA Injection Modules** ranked by severity and frequency.
 | 10 Format String Injection | Tests the format string vulnerabilities that could allow an attacker to execute arbitrary code or **cause a program crash by manipulating format string functions.** |
 
 E) Review **Response Processing Modules** that can to test the listed vulnerabilities.
+![VEGA Sat 11](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/5f3107d3-3eda-4c8d-bff0-ae42fca6023f)
 
 🗹Checkmark the vulnerabilities that you want to test for.
 
