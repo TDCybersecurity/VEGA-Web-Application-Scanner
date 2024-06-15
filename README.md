@@ -1,11 +1,18 @@
+![Vega Sat 1](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/8a51be88-df29-41a8-925f-2f6398f0b165)
+
+
+
+
+
+
 **What is VEGA?**
 
 **VEGA** is a **web vulnerability scanning tool** used to keep websites and web applications secure by finding vulnerabilities. It works by scanning the site, detecting issues like **SQL injection** and **cross-site scripting**, and reporting these vulnerabilities. **VEGA** automates the process of finding security weaknesses, saving time and effort. As an open-source tool, it’s free to use and can be customized to meet specific needs. Overall, **VEGA** helps developers fix security issues before hackers can exploit them.
 
 **Task 1: Project Introduction and Overview of SOW.**
 
-A) Open Google on your terminal, and then find, open, and read the **(SOW) Statement of Work**.
-
+A) Open Google on your terminal, and then find, open, and read the **(SOW) Statement of Work**.![Vega Sat 2](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/259a91bd-882c-44a5-b530-d1143a76c61d) 
+![VEGA Sat 3](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/f97b548c-3b7a-4cdd-ba20-e33d579ce5bb)
 
 
 What is a (SOW) Statement of Work?
@@ -22,6 +29,7 @@ What is a (SOW) Statement of Work?
 _Conducting a web vulnerability scan without a (SOW) Statement of Work can lead to several potential issues and risks, both legal and operational._
 
 B) From the desktop open **VEGA**
+![VEGA Sat 5](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/cbf0fc7d-1f0c-4f0f-bcd8-5dc739a095b5)
 
 **Task 2: Overview of VEGA and a vulnerable “test” website.**
 
