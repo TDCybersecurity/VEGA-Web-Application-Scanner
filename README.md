@@ -74,6 +74,16 @@ E) Review **Response Processing Modules** that can to test the listed vulnerabil
 
 🗹Checkmark the vulnerabilities that you want to test for.
 
+
+
+
+
+
+
+
+![VEGA Sat 11](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/3e38124e-424b-4063-b48f-0fbba2ccceef)
+![VEGA Sat 9](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/06161b8f-8e0a-4e27-a35e-287f908fd05a)
+
 \*\*Customize the scan based on the company’s request\*\*
 
 F) The top 10 VEGA **Response Processing Modules** ranked by severity and frequency.
@@ -92,11 +102,11 @@ F) The top 10 VEGA **Response Processing Modules** ranked by severity and freque
 | 10 HTML Comments | **Analyzes HTML comments** in the response content that **may contain sensitive** **information or clues** about the application’s functionality. |
 
 G) Click on **Finish** to start the scan.
-
+![VEGA Sat 12](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/2cc92385-05f4-44f9-95ee-f05ba047606f)
 H) **Scanner Progress** collecting Alerts.
-
+![VEGA Sat 13](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/4732fa5e-7b13-463e-b55c-00339aa22365)
 3I) The **VEGA** **Scan Alert Summary** is complete.
-
+![VEGA Sat 14](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/61bcdb9d-b983-4f35-b70f-bc17b072595e)
 Observe the **Scan Alerts** section, drill down into items you want to access.
 
 |     |     |     |     |
@@ -104,9 +114,18 @@ Observe the **Scan Alerts** section, drill down into items you want to access.
 
 **Task 4: Validate Cross-Site Scripting**
 
-A) Observe High risk classification for Input Validation Error.
+A) Observe High risk classification for the Cross Site Scripting Input Validation Error.
+![VEGA Sat 15](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/ba9327b0-4c42-4abe-a301-df3414067e0f)
 
 B) Open the ⏵REQUEST **POST /searchFor=vega’--> “>’>”’ goButton=go\]**
+![VEGA Sat 16](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/11689441-e57b-4949-9f48-047ad6c4f85a)
+
+C) When you enter xss into search art in returns searched for: xss onto the web page as a pop-up indicating there may be a vulnerablity.
+![VEGA Sat 17](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/6ac65de7-872f-41ed-8177-474655b4ee0c)
+
+
+D) When you enter <script>alert("xss")</script> into search art in returns a pop-up message indicating a redirection vulnerability.
+![VEGA Sat 18](https://github.com/TDCybersecurity/VEGA-Web-Application-Scanner/assets/142702123/60176762-0d47-450d-84a9-1bc6a4b97865)
 
 **DISCUSSION**
 
